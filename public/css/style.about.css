@@ -1,0 +1,649 @@
+/* Footer */
+
+.team-content {
+    padding: 0px 15px 15px 15px;
+}
+.border-team {
+    border-bottom:1px solid #e2e2e2;
+    margin-bottom:10px;
+}
+.team-img:hover {
+    background:#f5f5f5;
+    
+}
+
+.our-team{
+    margin-left: 190px;
+}
+/* Social Icons */
+
+.social-icons{
+    
+    margin: 0;
+    padding: 0;
+    font-size : 10px;
+}
+.social {
+    margin:7px 7px 7px 0px;
+    color:#232323;
+}
+
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .25s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .25s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .25s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .25s;
+ }
+
+
+/* Site Heading */
+.site-heading h3{
+    margin-top: 25px;
+    font-size : 40px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.border {
+    background: black;
+    height: 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.container-logo{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),url("../img/FOTO Tengah RZ.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.foto-tengah img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+.paddingTB60 {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+ .image-aboutus-banner {
+    background-image: url("../img/ABOUT - Office Hour 2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 110px;
+    padding-bottom:165px;
+    opacity: 0.85;
+}
+ 
+  .image-aboutus-sm-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://images.pexels.com/photos/631008/pexels-photo-631008.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom:30px;
+ }
+
+.logo-kecil img{
+    width:55%;
+    text-align: center;
+} 
+
+@keyframes fade{
+    0%{
+        top: 10px;
+        left: 10px;
+        filter: blur(15px);
+        opacity: 0;
+    }
+    50%{
+        filter: blur(10px);
+        opacity: 0.9;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.animation{
+    animation: fade 650ms ease-in-out forwards;
+}
+
+.lg-text {
+    padding-top: 10px;
+    font-size:52px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    color:#fff;
+}
+.image-aboutus-para {
+    color:#fff;
+}
+
+.vision-left{
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.foto-tengah{
+    float: left;
+    width: 60%;
+    border-radius: 15%;
+}
+
+.mision-right{
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.team-img-thumbnail img{
+width: 60%;
+border-radius: 50%;
+border: solid black 4px;
+}
+
+.logo-pemerintah{
+    display: flex;
+    position: absolute;
+    margin-right: 80px;
+}
+
+.logo-img-thumbnail img{
+    width: auto;
+    height: 300px;
+    transition: transform .5s ease;
+    margin-left: 55px;
+    margin-right: 60px;
+}
+.logo-img-thumbnail:hover img{
+    transform: scale(1.1);
+}
+
+
+/* font CSS */
+body {
+    font-family: 'Roboto';
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #494949;
+    font-size: 16px;
+    background-color: #E5E4CC;
+}
+
+a:hover {
+    color: #465cff;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #000;
+}
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #000;
+}
+
+h3 {
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+}
+ h4 { font-size: 19px; 
+     letter-spacing: 0px; 
+     font-weight: 600;
+     font-style: normal;
+     color: #000;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    color: #494949;
+}
+
+a {
+    color: #494949;
+}
+
+.capital {
+    text-transform:uppercase;
+}
+
+i {
+    font-style: normal;
+    font-size: 42px;
+    text-align: center;
+    line-height: 64px;
+}
+
+/* Breadcum bar */
+.bread-bar {
+    background: #f9f9f9;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    min-height: 40px;
+    height: auto;
+    position: relative;
+    z-index: 555;
+}
+.breadcrumb {
+    background: none;
+    margin: 0;
+    font-weight: 300;
+    padding-left: 0;
+    font-size: 13px;
+}
+.breadcrumb a {
+    color: #999;
+}
+.breadcrumb > .active {
+    color: #666;
+}
+.breadcrumb > li + li::before {
+    content: "\203A";
+    color: #999;
+    padding: 0 8px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 img{
+    width: 200px;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.column2:hover img{
+    transform: scale(1.1);
+}
+
+.row2{
+    margin: 15px 15px;
+}
+
+.row2 h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Create three equal columns that floats next to each other */
+.column-vm {
+  width: 100%;
+  float: left;
+  padding: 100px;
+  height: 50%;
+  background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),url("../img/FOTO Tengah RZ.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 1080px){
+
+    .site-heading h3{
+        margin-top: 25px;
+        font-size : 28x;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .column2 {
+        float: left;
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        
+    }
+
+    /* Clear floats after the columns */
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column2 img{
+        width: 80%;
+        height: 70%;
+        transition: transform .5s ease;
+    }
+
+    .column2:hover img{
+        transform: scale(1.1);
+    }
+
+    .row2{
+        text-align: center;
+        margin: 15px 15px;
+    }
+
+    .row2 h3{
+        font-size: 28px;
+        font-family: 'Roboto';
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .aboutus-secktion{
+        width: 100%;
+    }
+
+    .vision-left{
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .foto-tengah{
+        float: left;
+        width: 100%;
+        height: 100%;
+        border-radius: 15%;
+        margin-bottom: 20px;
+    }
+
+    .mision-right{
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .foto-tengah img{
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .column-vm {
+        width: 100%;
+        float: left;
+        padding: 20px;
+        height: 100%;
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)
+            ),url("../img/FOTO Tengah RZ.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+/* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .site-heading h3{
+        margin-top: 25px;
+        font-size : 28px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .column2 {
+        float: left;
+        width: 25%;
+        height: 50%;
+        padding: 10px;
+       
+    }
+
+    /* Clear floats after the columns */
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column2 img{
+        width: 100%;
+        height: 100%;
+        transition: transform .5s ease;
+    }
+
+    .column2:hover img{
+        transform: scale(1.1);
+    }
+
+    .row2{
+        text-align: center;
+        margin: 15px 15px;
+    }
+
+    .row2 h3{
+        font-size: 28px;
+        font-family: 'Roboto';
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .aboutus-secktion{
+        width: 100%;
+    }
+
+    .vision-left{
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .foto-tengah{
+        float: left;
+        width: 100%;
+        height: 100%;
+        border-radius: 15%;
+        margin-bottom: 20px;
+    }
+
+    .mision-right{
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .foto-tengah img{
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .column-vm {
+        width: 100%;
+        float: left;
+        padding: 20px;
+        height: 100%;
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)
+            ),url("../img/FOTO Tengah RZ.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+/* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .logo-kecil img{
+        width: 80%;
+        text-align: center;
+    } 
+}
+
+@media (max-width: 500px) {
+
+    .site-heading h3{
+        margin-top: 25px;
+        font-size : 28px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .column2 {
+        float: left;
+        width: 48%;
+        height: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Clear floats after the columns */
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column2 img{
+        width: 80%;
+        height: 70%;
+        transition: transform .5s ease;
+    }
+
+    .column2:hover img{
+        transform: scale(1.1);
+    }
+
+    .row2{
+        text-align: center;
+        margin: 15px 15px;
+    }
+
+    .row2 h3{
+        font-size: 28px;
+        font-family: 'Roboto';
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .aboutus-secktion{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .vision-left{
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .foto-tengah{
+        float: left;
+        width: 100%;
+        height: 100%;
+        border-radius: 15%;
+        margin-bottom: 20px;
+    }
+
+    .mision-right{
+        float: left;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .foto-tengah img{
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    .column-vm {
+        width: 100%;
+        float: left;
+        padding: 20px;
+        height: 100%;
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)
+            ),url("../img/FOTO Tengah RZ.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+/* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
